@@ -1,7 +1,9 @@
+from application.salary import *
+from application.db.people import *
+from datetime import *
 import emoji
-from datetime import datetime
-from application.salary import calculate_salary
-from application.db.people import get_employees
+
+
 
 
 def test_function():
